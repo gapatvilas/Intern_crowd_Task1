@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta name="viewport" content="width=device-width , initial-scale= 1.0">
+    <title> Responsive Contact Us Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        .body{
+            background: yellowgreen;
+            color:#081b29;
+
+        }
+      
+.cont-sci::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background:#081b29;
+	animation: showRight 1s ease forwards;
+	animation-delay: 0.1s;
+	z-index: 2;
+}
+        .conta{
+            padding: 5;
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="body">
+<section class="conta">
+  
+    <div class="container">
+    <div class="contactinfo">
+        <div class="box">
+            <div class="icon"><i class='bx bx-location-plus' ></i></div>
+                <div class="text">
+                    <h3>Address</h3>
+                    <p>India pin: 416875</p>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class='bx bxl-gmail' ></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>interncrowd@gmail.com</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><box-icon name='phone'></box-icon></div>
+                        <div class="text">
+                            <h3>Phone Number</h3>
+                            <p>+919999999999</p>
+                            
+                        </div>
+                    </div>
+        </div>
+        </div>
+    </div>
+    <div class="cont-sci">
+        <h1>Social Media</h1>
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-twitter' ></i></a>
+        <a href="#"><i class='bx bxl-linkedin' ></i></a>
+        <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+    </div>
+</section>
+</body>
+</html>
